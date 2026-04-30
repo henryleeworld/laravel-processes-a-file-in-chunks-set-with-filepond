@@ -12,6 +12,7 @@ Route::get('dashboard', DashboardController::class)
 
 Route::middleware(['auth'])->group(function () {
     Route::get('settings/appearance', [AppearanceController::class, 'edit'])->name('settings.appearance.edit');
+    Route::put('settings/appearance', [AppearanceController::class, 'update'])->name('settings.appearance.update');
     Route::get('settings/password', [PasswordController::class, 'edit'])->name('settings.password.edit');
     Route::put('settings/password', [PasswordController::class, 'update'])->name('settings.password.update');
     Route::get('settings/profile', [ProfileController::class, 'edit'])->name('settings.profile.edit');
