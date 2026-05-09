@@ -1,4 +1,4 @@
-# Laravel 12 使用 FilePond 處理拆成多個給定大小的較小集合檔案
+# Laravel 13 使用 FilePond 處理拆成多個給定大小的較小集合檔案
 
 引入 rahulhaque 的 laravel-filepond 套件來擴增使用 FilePond 處理拆成多個給定大小的較小集合檔案，將大於傳送到伺服器的最小位元組數設定的檔案切成幾個部分，以便在網路上進行有效傳輸。
 
@@ -36,5 +36,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/kVMIr51.png)
+![](https://i.imgur.com/jaZ2w9u.gif)
 > 以分塊方式傳送資料資料

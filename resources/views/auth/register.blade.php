@@ -10,7 +10,7 @@
                 @csrf
                 <!-- Full Name Input -->
                 <div>
-                    <x-forms.input label="{{ __('Full Name') }}" name="name" type="text" placeholder="{{ __('Full Name') }}" />
+                    <x-forms.input label="{{ __('Full Name') }}" name="name" type="text" placeholder="{{ __('Full Name') }}" autofocus />
                 </div>
 
                 <!-- Email Input -->
