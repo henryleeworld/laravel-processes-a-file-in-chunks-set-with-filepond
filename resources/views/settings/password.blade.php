@@ -43,11 +43,11 @@
                             </div>
 
                             <div class="mb-6">
-                                <x-forms.input label="{{ __('New Password') }}" name="password" type="password" />
+                                <x-forms.input label="{{ __('New Password') }}" name="password" type="password" autocomplete="new-password" passwordrules="{{ \Illuminate\Validation\Rules\Password::defaults()->toPasswordRulesString() }}" />
                             </div>
 
                             <div class="mb-6">
-                                <x-forms.input label="{{ __('Confirm Password') }}" name="password_confirmation" type="password" />
+                                <x-forms.input label="{{ __('Confirm Password') }}" name="password_confirmation" type="password" autocomplete="new-password" passwordrules="{{ \Illuminate\Validation\Rules\Password::defaults()->toPasswordRulesString() }}" />
                             </div>
 
                             <div>
